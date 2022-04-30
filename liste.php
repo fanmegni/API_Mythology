@@ -19,6 +19,6 @@ foreach ($questions as $question){
     <button type="submit"><?=$question["id"]?></button>
 </article>
 <?php } ?>
-<script src="./assets/js/liste.js"></script>
+<script src="assets/js/liste.js"></script>
 </body>
 </html>
