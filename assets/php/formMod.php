@@ -20,5 +20,5 @@ try {
     var_dump($exception);
 }
 
-header("Location: http://localhost:63343/API_Mythology/liste.php");
+header("Location: https://quest.noixvide.fr/API_Mythology/liste.php");
 exit();

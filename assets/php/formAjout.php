@@ -27,5 +27,5 @@ catch (PDOException $exception){
     var_dump($exception);
 }
 
-header("Location: http://localhost:63343/API_Mythology/ajouterQuestion.php");
+header("Location: https://quest.noixvide.fr/ajouterQuestion.php");
 exit();
