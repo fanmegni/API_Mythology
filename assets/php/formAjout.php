@@ -29,3 +29,4 @@ catch (PDOException $exception){
 
 header("Location: https://quest.noixvide.fr/ajouterQuestion.php");
 exit();
+//

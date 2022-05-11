@@ -18,3 +18,4 @@ catch (PDOException $exception){
 
 header("Location: https://quest.noixvide.fr/API_Mythology/liste.php");
 exit();
+//
