@@ -1,5 +1,5 @@
 <?php
-include_once './assets/php/formAjout.php';
+ //include_once './assets/php/formAjout.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +9,7 @@ include_once './assets/php/formAjout.php';
     <link rel="stylesheet" href="assets/css/ajout.css">
 </head>
 <body>
-    <form>
+    <form action="assets/php/formAjout.php">
         <label for="question">Question : </label><input name="question" id="question">
         <div>
             <label for="vrai">Vrai</label><input type="radio" name="reponse" id="vrai" value="vrai">

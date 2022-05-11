@@ -15,3 +15,6 @@ try {
 catch (PDOException $exception){
     var_dump($exception);
 }
+
+header("Location: http://localhost:63343/API_Mythology/liste.php");
+exit();
